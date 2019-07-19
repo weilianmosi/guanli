@@ -8,7 +8,7 @@ class Header extends React.Component{
     state={}
     componentWillMount(){
         this.setState({
-            userName:'河畔一角'
+            userName:'您'
         })
         setInterval(()=>{
             let sysTime = Util.formateDate(new Date().getTime());
